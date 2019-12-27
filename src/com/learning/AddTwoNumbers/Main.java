@@ -26,7 +26,7 @@ public class Main {
             next = next.next;
         }
         System.out.println();
-        Solution solution = new Solution();
+        SolutionSimple solution = new SolutionSimple();
         ListNode result = solution.addTwoNumbers(l1,l2);
         next = result;
         while(next != null){
