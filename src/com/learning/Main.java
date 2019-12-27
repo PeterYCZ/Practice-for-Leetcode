@@ -1,6 +1,6 @@
 package com.learning;
 
-import com.learning.TwoSum.Solution;
+import com.learning.TwoSum.SolutionHash;
 
 public class Main {
 
