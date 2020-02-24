@@ -4,7 +4,7 @@ public class Solution {
 
     public int reverse(int x) {
         try{
-            if(x == 0){
+        if(x == 0){
                 return x;
             }
             String z = "";
