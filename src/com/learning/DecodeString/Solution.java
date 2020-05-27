@@ -45,7 +45,7 @@ public class Solution {
                 }
            }
        }
-       if(isresult != 0){
+       if(isresult > 1){
            return decodeString(result);
        }
        return result;
