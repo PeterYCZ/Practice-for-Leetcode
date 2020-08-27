@@ -2,6 +2,7 @@ package main
 
 import (
 	"./addtwosum"
+	"./longestSubstringWithoutRepeatingCharacters"
 	"./twosum"
 	"fmt"
 )
@@ -27,8 +28,14 @@ func addtwosumMain() {
 	}
 }
 
+func lengthOfLongestSubstring() {
+	result := longestSubstringWithoutRepeatingCharacters.LengthOfLongestSubstring("bbtwabbcwluatad")
+	fmt.Printf("%d", result)
+}
+
 func main() {
 	//twosumMain()
-	addtwosumMain()
+	//addtwosumMain()
+	lengthOfLongestSubstring()
 
 }
